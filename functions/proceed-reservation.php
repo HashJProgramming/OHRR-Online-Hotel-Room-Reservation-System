@@ -28,6 +28,6 @@ $stmt->bindParam(':id', $user_id);
 $stmt->execute();
 
 // Redirect the user to the home page
-header('Location: ../reservations.php.php');
+header('Location: ../reservations.php');
 
 ?>

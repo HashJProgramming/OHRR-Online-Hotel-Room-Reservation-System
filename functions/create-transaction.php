@@ -48,7 +48,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // If the user already has a transaction in progress, redirect them to the transaction page
 if (count($rows) > 0) {
-    header('Location: ../transaction.php');
+    header('Location: ../history.php');
     exit;
 }
 
