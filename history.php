@@ -90,7 +90,7 @@ Online Hotel Room Reservation System">
                                                      }
 
                                                      function get_data($id){
-                                                        $db = new PDO('mysql:host=localhost;dbname=db_hashys', 'root', '');
+                                                        $db = new PDO('mysql:host=localhost;dbname=db_hashing', 'root', '');
                                                         $sql = 'SELECT * FROM lists WHERE id = :id';
                                                         $stmt = $db->prepare($sql);
                                                         $stmt->bindParam(':id', $id);
