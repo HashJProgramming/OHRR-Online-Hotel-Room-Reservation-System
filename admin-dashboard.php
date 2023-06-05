@@ -54,7 +54,7 @@ Online Hotel Room Reservation System">
             <div class="col-md-6 d-md-flex align-items-md-center">
                 <div style="max-width: 350px;">
                     <h2 class="text-uppercase fw-bold">Hotel Alindahaw Pagadian City</h2>
-                    <p class="my-3">San Francisco Dist. Pagadian City</p><a class="btn btn-primary btn-lg me-2" role="button" href="admin-reservations.html">reservations list</a>
+                    <p class="my-3">San Francisco Dist. Pagadian City</p><a class="btn btn-primary btn-lg me-2" role="button" href="admin-reservations.php">reservations list</a>
                 </div>
             </div>
         </div>
