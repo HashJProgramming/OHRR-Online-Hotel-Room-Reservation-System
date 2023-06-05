@@ -31,6 +31,12 @@ $check_out = $_POST['check_out'];
 $check_in_datetime = new DateTime($check_in);
 $check_out_datetime = new DateTime($check_out);
 
+// Check if the check out date is in the past
+if ($check_out_datetime < $check_in_datetime) {
+    echo "Check out must not be in the past";
+    exit;
+}
+
 // Get the difference between the two datetime objects
 $diff = $check_out_datetime->diff($check_in_datetime);
 
@@ -39,6 +45,7 @@ $days = $diff->days;
 
 // Calculate the total price
 $total_price = $price * $days;
+
 
 // Check if the user already has a transaction in progress
 $sql = "SELECT * FROM transactions WHERE user_id = $user_id AND status = 'processing'";
