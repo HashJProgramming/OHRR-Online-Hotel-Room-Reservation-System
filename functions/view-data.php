@@ -18,7 +18,6 @@ function data_list(){
                 <img class="img-fluid card-img-top w-100 d-block fit-cover" style="height: 200px;" src="<?php echo 'functions/'.$row['photo']; ?>" />
                 
                 <div class="card-body p-4">
-                    <p class="text-primary card-text mb-0">Room #<?php echo $row['id']; ?></p>
                     <h4 class="card-title"><?php echo $row['name']; ?></h4>
                     <p class="card-text"><?php echo $row['descriptions']; ?></p><button class="btn btn-primary" type="button" data-bs-target="#transaction" data-bs-toggle="modal" data-id="<?php echo $row['id']?>">Reserve</button>
                 </div>

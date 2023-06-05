@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <button class="btn btn-primary d-block w-100" style="margin-bottom:10px; margin-top:10px" onclick="printReceipt()">Print</button>
-                <a class="btn btn-primary d-block w-100" role="button" href="staff-reservation-list.php">Go back</a>
+                <a class="btn btn-primary d-block w-100" role="button" href="admin-reservations.php">Go back</a>
             </div>
         </div>
     </div>

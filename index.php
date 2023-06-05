@@ -43,30 +43,16 @@ Online Hotel Room Reservation System">
             </div>
         </div>
     </header>
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 gy-md-0">
-            <div class="col-md-6">
-                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/bg.jpg"></div>
-            </div>
-            <div class="col-md-6 d-md-flex align-items-md-center">
-                <div style="max-width: 350px;">
-                    <h2 class="text-uppercase fw-bold">Hotel Alindahaw Pagadian City</h2>
-                    <p class="my-3">San Francisco Dist. Pagadian City</p><button class="btn btn-primary btn-lg me-2" type="button" data-bs-target="#register" data-bs-toggle="modal">register</button><button class="btn btn-outline-primary btn-lg" type="button" data-bs-target="#login" data-bs-toggle="modal">login</button>
-                </div>
-            </div>
-        </div>
-    </div>
+ 
     <div class="container d-flex flex-column align-items-center py-4 py-xl-5">
+                <div>
+                    <h2><strong>HOTEL ALINDAHAW PAGADIAN CITY</strong></h2>
+                    <p>Pagadian City Hotel Alindahaw - Huge Discounts<br>Compare Prices &amp; Save Money with Tripadvisor (The World's Largest Travel Site).</p>
+                </div>
         <div class="row gy-4 row-cols-1 row-cols-md-2 w-100" style="max-width: 800px;">
             <div class="col order-md-first">
                 <div class="card"><img class="card-img w-100 d-block" src="assets/img/room1.jpg">
                     <div class="card-img-overlay text-center d-flex flex-column justify-content-center align-items-center p-4"></div>
-                </div>
-            </div>
-            <div class="col d-md-flex order-first justify-content-md-start align-items-md-end order-md-1">
-                <div style="width: 80%;">
-                    <h2><strong>HOTEL ALINDAHAW PAGADIAN CITY</strong></h2>
-                    <p>Pagadian City Hotel Alindahaw - Huge Discounts<br>Compare Prices &amp; Save Money with Tripadvisor (The World's Largest Travel Site).</p>
                 </div>
             </div>
             <div class="col order-md-2">
